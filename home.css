@@ -1,0 +1,52 @@
+
+.container {
+    font-family: monospace;
+    justify-content: center;
+  
+}
+.profile{
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+}
+.profile h1{
+    font-weight: 500;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+}
+.profile p{
+    text-align: center;
+    margin-top: 40px;
+}
+.icon{
+    font-size:2.2em;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.icon a{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+
+}
+.icon a:active,
+.icon a:hover{
+    color: #0dcaf0;
+}
+
+
+
+@media (min-width: 576px){
+    .container{
+        padding: 50px 20px;
+    }
+    .col{
+        justify-content: center;
+
+    }
+}
